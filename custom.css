@@ -10,7 +10,7 @@ a hack to deal with our current css styles and no new styling should be added in
 }
 div#notebook {
  font-family: sans-serif;
- font-size: 13pt;
+ font-size: 11pt;
  line-height: 200%;
  color: #b5c2d9;
  -webkit-font-smoothing: antialiased !important;
@@ -18,7 +18,7 @@ div#notebook {
 body,
 div.body {
  font-family: sans-serif;
- font-size: 13pt;
+ font-size: 11pt;
  color: #899ab8;
  background-color: #1d1e23;
  background: #1d1e23;
@@ -41,11 +41,20 @@ a:focus {
  color: #bbc2e0;
  -webkit-font-smoothing: antialiased !important;
 }
+#notebook_name {
+  padding: 0px 5px;
+  margin-left: 0;
+  line-height: 30px;
+  font-size: 24px;
+}
+#notebook_name:hover {
+  background: #303542;
+}
 .list_header,
 div#notebook_list_header.row.list_header {
  font-size: 14pt;
  color: #bbc2e0;
- background-color: transparent;
+ background-color: #2e3642;
  height: 35px;
 }
 i.fa.fa-folder {
@@ -178,48 +187,6 @@ div#notebook_toolbar div.dynamic-instructions {
  font-size: 17px;
  color: #526488;
 }
-span#login_widget > .button,
-#logout {
- font-family: "Proxima Nova", sans-serif;
- color: #899ab8;
- background: transparent;
- background-color: transparent;
- border: 2px solid #303542;
- font-weight: normal;
- box-shadow: none;
- text-shadow: none;
- border-radius: 3px;
- margin-right: 10px;
- padding: 2px 7px;
-}
-span#login_widget > .button:hover,
-#logout:hover {
- color: #7aa05d;
- background-color: transparent;
- background: transparent;
- border: 2px solid #7aa05d;
- background-image: none;
- box-shadow: none !important;
- border-radius: 3px;
-}
-span#login_widget > .button:focus,
-#logout:focus,
-span#login_widget > .button.focus,
-#logout.focus,
-span#login_widget > .button:active,
-#logout:active,
-span#login_widget > .button.active,
-#logout.active,
-.open > .dropdown-togglespan#login_widget > .button,
-.open > .dropdown-toggle#logout {
- color: #d8dcee;
- background-color: #899ab8;
- background: #899ab8;
- border-color: #899ab8;
- background-image: none;
- box-shadow: none !important;
- border-radius: 2px;
-}
 body > #header #header-container {
  padding-bottom: 0px;
  padding-top: 4px;
@@ -234,19 +201,19 @@ body > #header {
  z-index: 100;
 }
 .list_container {
- font-size: 13pt;
+ font-size: 11pt;
  color: #899ab8;
  border: none;
  text-shadow: none !important;
 }
 .list_container > div {
  border-bottom: 1px solid rgba(80,92,133,.22);
- font-size: 13pt;
+ font-size: 11pt;
 }
 .list_header > div,
 .list_item > div {
- padding-top: 6px;
- padding-bottom: 2px;
+ /* padding-top: 6px;
+ padding-bottom: 2px; */
  padding-left: 0px;
 }
 .list_header > div .item_link,
@@ -254,11 +221,11 @@ body > #header {
  margin-left: -1px;
  vertical-align: middle;
  line-height: 22px;
- font-size: 13pt;
+ font-size: 11pt;
 }
 .item_icon {
  color: #4c8be2;
- font-size: 13pt;
+ font-size: 11pt;
  vertical-align: middle;
 }
 .list_item input:not([type="checkbox"]) {
@@ -434,7 +401,7 @@ ul#tabs a {
 }
 div#notebook {
  font-family: sans-serif;
- font-size: 13pt;
+ font-size: 11pt;
  padding-top: 4px;
 }
 .notebook_app {
@@ -457,9 +424,9 @@ div#ipython-main-app.container {
  margin-left: auto;
 }
 .container {
- width: 70%;
+ /* width: 70%;
  margin-right: auto;
- margin-left: auto;
+ margin-left: auto; */
 }
 div#menubar-container {
  width: 100%;
@@ -477,7 +444,7 @@ div#header-container {
 #header,
 .edit_app #header {
  font-family: sans-serif;
- font-size: 13pt;
+ font-size: 11pt;
  box-shadow: none;
  background-color: #1d1e23;
 }
@@ -519,7 +486,7 @@ p.navbar-text.indicator_area {
 }
 .navbar-default {
  font-family: sans-serif;
- font-size: 13pt;
+ font-size: 11pt;
  background-color: #1d1e23;
  border-color: #313643;
  line-height: 1.5em;
@@ -527,7 +494,7 @@ p.navbar-text.indicator_area {
 }
 .navbar-default .navbar-nav > li > a {
  font-family: sans-serif;
- font-size: 13pt;
+ font-size: 11pt;
  color: #899ab8;
  display: block;
  line-height: 1.5em;
@@ -623,7 +590,7 @@ div.notification_widget.info,
  color: #4c8be2;
 }
 .item_buttons .kernel-name {
- font-size: 13pt;
+ font-size: 11pt;
  color: #4c8be2;
 }
 .running_notebook_icon:before {
@@ -647,7 +614,7 @@ div.notification_widget.info,
 }
 #notification_trusted {
  font-family: sans-serif;
- font-size: 17px !important;
+ /* font-size: 17px !important; */
  border: none;
  background: transparent;
  background-color: transparent;
@@ -690,7 +657,7 @@ div#notification_notebook.notification_widget.btn.btn-xs.navbar-btn {
  padding-left: 5px !important;
 }
 #kernel_indicator .kernel_indicator_name {
- font-size: 17px;
+ /* font-size: 17px; */
  color: #7aa05d;
  background: #1d1e23;
  background-color: #1d1e23;
@@ -703,7 +670,7 @@ div#notification_notebook.notification_widget.btn.btn-xs.navbar-btn {
 .kernel_idle_icon:before {
  display: inline-block;
  font: normal normal normal 22px/1 FontAwesome;
- font-size: 22px;
+ /* font-size: 22px; */
  text-rendering: auto;
  -webkit-font-smoothing: antialiased;
  cursor: pointer;
@@ -716,7 +683,7 @@ div#notification_notebook.notification_widget.btn.btn-xs.navbar-btn {
 .kernel_busy_icon:before {
  display: inline-block;
  font: normal normal normal 22px/1 FontAwesome;
- font-size: 22px;
+ /* font-size: 22px; */
  -webkit-animation: pulsate 2s infinite ease-out;
  animation: pulsate 2s infinite ease-out;
  text-rendering: auto;
@@ -802,7 +769,7 @@ i.fa.fa-icon {
 }
 .dropdown-menu {
  font-family: sans-serif;
- font-size: 13pt;
+ font-size: 11pt;
  box-shadow: none;
  padding: 0px;
  text-align: left;
@@ -813,7 +780,7 @@ i.fa.fa-icon {
 }
 .dropdown-menu:hover {
  font-family: sans-serif;
- font-size: 13pt;
+ font-size: 11pt;
  box-shadow: none;
  padding: 0px;
  text-align: left;
@@ -888,14 +855,16 @@ div.kse-dropdown > .dropdown-menu,
 .btn,
 .btn-default {
  font-family: sans-serif;
- color: #899ab8;
- background: #303542;
- background-color: #303542;
- border: 2px solid #303542;
+ color: #899ab8 !important;
+ background: #303542 !important;
+ background-color: #303542 !important;
+ /* background: transparent !important; */
+ border: none !important;
+ /* border-bottom: 1px solid #7aa05d !important; */
  font-weight: normal;
  box-shadow: none;
  text-shadow: none;
- border-radius: 3px;
+ /* border-radius: 3px; */
  font-size: initial;
 }
 .btn:hover,
@@ -972,7 +941,7 @@ div.kse-dropdown > .dropdown-menu,
 .item_buttons > .btn,
 .item_buttons > .btn-group,
 .item_buttons > .input-group {
- font-size: 13pt;
+ font-size: 11pt;
  background: transparent;
  background-color: transparent;
  border: 0px solid #2e3642;
@@ -997,7 +966,7 @@ div.kse-dropdown > .dropdown-menu,
  transition: none;
 }
 .item_buttons {
- line-height: 1.5em !important;
+ /* line-height: 1.5em !important; */
 }
 .item_buttons .btn {
  min-width: 11ex;
@@ -1095,7 +1064,7 @@ div.dynamic-buttons > button,
 }
 .dropdown-header {
  font-family: sans-serif !important;
- font-size: 13pt !important;
+ font-size: 11pt !important;
  color: #7aa05d !important;
  border-bottom: none !important;
  padding: 0px !important;
@@ -1159,7 +1128,7 @@ fieldset[disabled] .btn-default.focus {
 }
 .input-group-addon {
  padding: 2px 5px;
- font-size: 13pt;
+ font-size: 11pt;
  font-weight: normal;
  height: auto;
  color: #899ab8;
@@ -1250,7 +1219,7 @@ div.modal-footer > button:hover {
 }
 .modal-header {
  font-family: sans-serif;
- font-size: 13pt;
+ font-size: 11pt;
  color: #899ab8;
  background: #2e3642;
  background-color: #2e3642;
@@ -1294,7 +1263,7 @@ div.panel-default,
 .panel,
 .panel-default {
  font-family: sans-serif;
- font-size: 13pt;
+ font-size: 11pt;
  background-color: #384152;
  color: #899ab8;
  margin-bottom: 14px;
@@ -1353,7 +1322,7 @@ textarea {
 }
 select.form-control.select-xs {
  height: 33px;
- font-size: 13pt;
+ font-size: 11pt;
 }
 .toolbar select,
 .toolbar label {
@@ -1598,7 +1567,7 @@ div.prompt,
  width: 11.5ex !important;
 }
 div.prompt.input_prompt {
- /* font-size: 9pt !important; */
+ font-size: 9pt !important;
  background-color: #2c303c;
  border-top: 0px;
  border-top-right-radius: 0px;
@@ -1778,7 +1747,7 @@ div.text_cell,
 div.text_cell_render pre,
 div.text_cell_render {
  font-family: sans-serif;
- font-size: 13pt;
+ font-size: 11pt;
  line-height: 130% !important;
  color: #abb7ce;
  background: #2c303c;
@@ -1890,7 +1859,7 @@ div.text_cell.rendered.selected .prompt {
 }
 div.rendered_html code {
  font-family: monospace, monospace;
- font-size: 13pt;
+ font-size: 11pt;
  padding-top: 3px;
  padding-left: 2px;
  color: #b5c2d9;
@@ -1906,7 +1875,7 @@ samp {
 .well code,
 code {
  font-family: monospace, monospace;
- font-size: 13pt !important;
+ font-size: 11pt !important;
  line-height: 200% !important;
  color: #abb7ce;
  background: #262c36;
@@ -1915,7 +1884,7 @@ code {
 }
 kbd {
  padding: 1px;
- font-size: 13pt;
+ font-size: 11pt;
  font-weight: 800;
  color: #b5c2d9;
  background-color: transparent !important;
@@ -1946,7 +1915,7 @@ div.rendered_html {
 }
 div.rendered_html pre {
  font-family: monospace, monospace;
- font-size: 13pt !important;
+ font-size: 11pt !important;
  line-height: 200% !important;
  color: #abb7ce !important;
  background: #262c36;
@@ -1962,7 +1931,7 @@ div.rendered_html pre {
 div.text_cell_render pre,
 div.text_cell_render code {
  font-family: monospace, monospace;
- font-size: 13pt !important;
+ font-size: 11pt !important;
  line-height: 200% !important;
  color: #abb7ce;
  background: #1d1e23;
@@ -2524,7 +2493,7 @@ div.collapsible_headings_toggle .fa-caret-right:before {
 #navigate_menu a,
 .toc {
  color: #899ab8 !important;
- font-size: 13pt !important;
+ font-size: 11pt !important;
 }
 #toc li > span:hover {
  background-color: #313643 !important;
@@ -2533,15 +2502,15 @@ div.collapsible_headings_toggle .fa-caret-right:before {
 #navigate_menu a:hover,
 .toc {
  color: #d8dcee !important;
- font-size: 13pt !important;
+ font-size: 11pt !important;
 }
 #toc-wrapper .toc-item-num {
  color: #7aa05d !important;
- font-size: 13pt !important;
+ font-size: 11pt !important;
 }
 input.raw_input {
  font-family: monospace, monospace;
- font-size: 13pt !important;
+ font-size: 11pt !important;
  color: #b5c2d9;
  background-color: #262c36;
  border-color: #242a33;
@@ -2629,7 +2598,7 @@ body > div.modal.cmd-palette.typeahead-field {
 .typeahead-dropdown,
 .typeahead-list {
  font-family: sans-serif;
- font-size: 13pt;
+ font-size: 11pt;
  color: #899ab8;
  background-color: #202937;
  border: none;
@@ -2774,7 +2743,7 @@ div#short-key-bindings-intro.well,
 }
 .terminal-app .terminal {
  font-family: monospace, monospace;
- font-size: 13pt;
+ font-size: 11pt;
  line-height: 200%;
  color: #b5c2d9;
  background: #2c303c;
@@ -2890,7 +2859,7 @@ div#pager .ui-resizable-handle {
 div.CodeMirror,
 div.CodeMirror pre {
  font-family: monospace, monospace;
- font-size: 13pt;
+ font-size: 11pt;
  line-height: 200%;
  color: #b5c2d9;
 }
@@ -2952,7 +2921,7 @@ div.js-error {
 }
 .ipython_tooltip {
  font-family: monospace, monospace;
- font-size: 13pt;
+ font-size: 11pt;
  line-height: 200%;
  border: 2px solid #21262c;
  background: #323a44;
@@ -2966,7 +2935,7 @@ div.js-error {
 }
 .ipython_tooltip .tooltiptext pre {
  font-family: monospace, monospace;
- font-size: 13pt;
+ font-size: 11pt;
  line-height: 200%;
  background: #323a44;
  background-color: #323a44;
@@ -2988,7 +2957,7 @@ div.tooltiptext.bigtooltip {
 }
 .cm-s-ipython.CodeMirror {
  font-family: monospace, monospace;
- font-size: 13pt;
+ font-size: 11pt;
  background: #2c303c;
  color: #b5c2d9;
  border-radius: 2px;
@@ -3211,15 +3180,15 @@ body :focus .MathJax {
  margin-left: 2px;
  overflow: auto;
  font-family: monospace, monospace;
- font-size: 13pt;
+ font-size: 11pt;
  color: #b5c2d9;
  width: auto;
 }
 div#maintoolbar {
- display: none !important;
+ /* display: none !important; */
 }
 #header-container {
- display: none !important;
+ /* display: none !important; */
 }
 
 /* .CodeMirror-gutter-wrapper{
