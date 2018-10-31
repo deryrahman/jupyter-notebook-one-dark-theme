@@ -10,7 +10,7 @@ a hack to deal with our current css styles and no new styling should be added in
 }
 div#notebook {
  font-family: sans-serif;
- font-size: 11pt;
+ /* font-size: 11pt; */
  line-height: 200%;
  color: #b5c2d9;
  -webkit-font-smoothing: antialiased !important;
@@ -18,7 +18,7 @@ div#notebook {
 body,
 div.body {
  font-family: sans-serif;
- font-size: 11pt;
+ /* font-size: 11pt; */
  color: #899ab8;
  background-color: #1d1e23;
  background: #1d1e23;
@@ -45,14 +45,14 @@ a:focus {
   padding: 0px 5px;
   margin-left: 0;
   line-height: 30px;
-  font-size: 24px;
+  /* font-size: 24px; */
 }
 #notebook_name:hover {
   background: #303542;
 }
 .list_header,
 div#notebook_list_header.row.list_header {
- font-size: 14pt;
+ /* font-size: 14pt; */
  color: #bbc2e0;
  background-color: #2e3642;
  height: 35px;
@@ -63,23 +63,23 @@ i.fa.fa-folder {
  font-family: "FontAwesome" !important;
  text-rendering: auto;
  -webkit-font-smoothing: antialiased;
- font-size: 18px;
+ /* font-size: 18px; */
  -moz-osx-font-smoothing: grayscale;
 }
 #running .panel-group .panel .panel-heading {
- font-size: 14pt;
+ /* font-size: 14pt; */
  color: #899ab8;
  padding: 8px 8px;
  background: #2e3642;
  background-color: #2e3642;
 }
 #running .panel-group .panel .panel-heading a {
- font-size: 14pt;
+ /* font-size: 14pt; */
  color: #899ab8;
 }
 #running .panel-group .panel .panel-heading a:focus,
 #running .panel-group .panel .panel-heading a:hover {
- font-size: 14pt;
+ /* font-size: 14pt; */
  color: #899ab8;
 }
 #running .panel-group .panel .panel-body .list_container .list_item {
@@ -102,7 +102,7 @@ button#refresh_cluster_list {
  border: none !important;
 }
 div.running_list_info.toolbar_info {
- font-size: 15px;
+ /* font-size: 15px; */
  padding: 4px 0 4px 0;
  margin-top: 5px;
  margin-bottom: 8px;
@@ -119,7 +119,7 @@ div.running_list_info.toolbar_info {
 }
 #project_name > ul > li > a > i.fa.fa-home {
  color: #7aa05d;
- font-size: 17pt;
+ /* font-size: 17pt; */
  display: inline-block;
  position: static;
  padding: 0px 0px;
@@ -131,10 +131,10 @@ div.running_list_info.toolbar_info {
  color: #4c8be2;
 }
 .fa-arrow-up:before {
- font-size: 14px;
+ /* font-size: 14px; */
 }
 .fa-arrow-down:before {
- font-size: 14px;
+ /* font-size: 14px; */
 }
 span#last-modified.btn.btn-xs.btn-default.sort-action:hover .fa,
 span#sort-name.btn.btn-xs.btn-default.sort-action:hover .fa {
@@ -143,7 +143,7 @@ span#sort-name.btn.btn-xs.btn-default.sort-action:hover .fa {
 .folder_icon:before {
  display: inline-block;
  font: normal normal normal 14px/1 FontAwesome;
- font-size: inherit;
+ /* font-size: inherit; */
  text-rendering: auto;
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
@@ -153,7 +153,7 @@ span#sort-name.btn.btn-xs.btn-default.sort-action:hover .fa {
 .notebook_icon:before {
  display: inline-block;
  font: normal normal normal 14px/1 FontAwesome;
- font-size: inherit;
+ /* font-size: inherit; */
  text-rendering: auto;
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
@@ -165,7 +165,7 @@ span#sort-name.btn.btn-xs.btn-default.sort-action:hover .fa {
 .file_icon:before {
  display: inline-block;
  font: normal normal normal 14px/1 FontAwesome;
- font-size: inherit;
+ /* font-size: inherit; */
  text-rendering: auto;
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
@@ -180,11 +180,11 @@ span#sort-name.btn.btn-xs.btn-default.sort-action:hover .fa {
  margin-left: -2px;
  text-align: -webkit-auto;
  vertical-align: baseline;
- font-size: 18px;
+ /* font-size: 18px; */
 }
 div#notebook_toolbar div.dynamic-instructions {
  font-family: sans-serif;
- font-size: 17px;
+ /* font-size: 17px; */
  color: #526488;
 }
 body > #header #header-container {
@@ -201,14 +201,14 @@ body > #header {
  z-index: 100;
 }
 .list_container {
- font-size: 11pt;
+ /* font-size: 11pt; */
  color: #899ab8;
  border: none;
  text-shadow: none !important;
 }
 .list_container > div {
  border-bottom: 1px solid rgba(80,92,133,.22);
- font-size: 11pt;
+ /* font-size: 11pt; */
 }
 .list_header > div,
 .list_item > div {
@@ -221,11 +221,11 @@ body > #header {
  margin-left: -1px;
  vertical-align: middle;
  line-height: 22px;
- font-size: 11pt;
+ /* font-size: 11pt; */
 }
 .item_icon {
  color: #4c8be2;
- font-size: 11pt;
+ /* font-size: 11pt; */
  vertical-align: middle;
 }
 .list_item input:not([type="checkbox"]) {
@@ -240,7 +240,7 @@ body > #header {
  margin-left: -1px;
  vertical-align: middle;
  line-height: 1.5em;
- font-size: 12pt;
+ /* font-size: 12pt; */
  display: inline-table;
  position: static;
 }
@@ -267,7 +267,7 @@ body > #header {
 }
 button#tree-selector-btn {
  height: 34px;
- font-size: 12.0pt;
+ /* font-size: 12.0pt; */
  border: none;
  left: 0px;
  border-radius: 0px !important;
@@ -287,10 +287,10 @@ input[type="checkbox"] {
  border: none !important;
 }
 i.fa.fa-trash {
- font-size: 13.5pt;
+ /* font-size: 13.5pt; */
 }
 .list_container a {
- font-size: 16px;
+ /* font-size: 16px; */
  color: #899ab8;
  border: none;
  text-shadow: none !important;
@@ -313,7 +313,7 @@ div.list_item:hover {
  background-color: rgba(80,90,133,.06);
 }
 .breadcrumb > li {
- font-size: 12.0pt;
+ /* font-size: 12.0pt; */
  color: #899ab8;
  border: none;
  text-shadow: none !important;
@@ -322,7 +322,7 @@ div.list_item:hover {
  content: "/\00a0";
  padding: 0px;
  color: #899ab8;
- font-size: 18px;
+ /* font-size: 18px; */
 }
 #project_name > .breadcrumb {
  padding: 0px;
@@ -333,14 +333,14 @@ div.list_item:hover {
 }
 ul#tabs a {
  font-family: sans-serif;
- font-size: 13.5pt;
+ /* font-size: 13.5pt; */
  font-weight: normal;
  font-style: normal;
  text-shadow: none !important;
 }
 .nav-tabs {
  font-family: sans-serif;
- font-size: 13.5pt;
+ /* font-size: 13.5pt; */
  font-weight: normal;
  font-style: normal;
  background-color: transparent;
@@ -401,7 +401,7 @@ ul#tabs a {
 }
 div#notebook {
  font-family: sans-serif;
- font-size: 11pt;
+ /* font-size: 11pt; */
  padding-top: 4px;
 }
 .notebook_app {
@@ -444,7 +444,7 @@ div#header-container {
 #header,
 .edit_app #header {
  font-family: sans-serif;
- font-size: 11pt;
+ /* font-size: 11pt; */
  box-shadow: none;
  background-color: #1d1e23;
 }
@@ -459,7 +459,7 @@ body > #header .header-bar {
 }
 span.checkpoint_status,
 span.autosave_status {
- font-size: small;
+ /* font-size: small; */
  display: none;
 }
 #menubar,
@@ -486,7 +486,7 @@ p.navbar-text.indicator_area {
 }
 .navbar-default {
  font-family: sans-serif;
- font-size: 11pt;
+ /* font-size: 11pt; */
  background-color: #1d1e23;
  border-color: #313643;
  line-height: 1.5em;
@@ -494,7 +494,7 @@ p.navbar-text.indicator_area {
 }
 .navbar-default .navbar-nav > li > a {
  font-family: sans-serif;
- font-size: 11pt;
+ /* font-size: 11pt; */
  color: #899ab8;
  display: block;
  line-height: 1.5em;
@@ -542,17 +542,17 @@ div#notification_notebook.notification_widget.btn.btn-xs.navbar-btn:focus {
  border-color: transparent !important;
  padding-bottom: 0px !important;
  margin-bottom: 0px !important;
- font-size: 9pt !important;
+ /* font-size: 9pt !important; */
  z-index: 0;
 }
 div#notification_notebook.notification_widget.btn.btn-xs.navbar-btn {
- font-size: 9pt !important;
+ /* font-size: 9pt !important; */
  z-index: 0;
 }
 .notification_widget {
  color: #4c8be2;
  z-index: -500;
- font-size: 9pt;
+ /* font-size: 9pt; */
  background: transparent;
  background-color: transparent;
  margin-right: 3px;
@@ -567,7 +567,7 @@ div.notification_widget {
  margin-top: 6px !important;
  background: transparent !important;
  background-color: transparent !important;
- font-size: 9pt !important;
+ /* font-size: 9pt !important; */
  border: none;
 }
 .navbar-btn.btn-xs:hover {
@@ -590,13 +590,13 @@ div.notification_widget.info,
  color: #4c8be2;
 }
 .item_buttons .kernel-name {
- font-size: 11pt;
+ /* font-size: 11pt; */
  color: #4c8be2;
 }
 .running_notebook_icon:before {
  color: #94c273 !important;
  font: normal normal normal 15px/1 FontAwesome;
- font-size: 15px;
+ /* font-size: 15px; */
  text-rendering: auto;
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
@@ -632,7 +632,7 @@ div.notification_area {
  padding-right: 4px;
 }
 div#notification_notebook.notification_widget.btn.btn-xs.navbar-btn {
- font-size: 9pt !important;
+ /* font-size: 9pt !important; */
  z-index: 0;
  margin-top: -5px !important;
 }
@@ -769,7 +769,7 @@ i.fa.fa-icon {
 }
 .dropdown-menu {
  font-family: sans-serif;
- font-size: 11pt;
+ /* font-size: 11pt; */
  box-shadow: none;
  padding: 0px;
  text-align: left;
@@ -780,7 +780,7 @@ i.fa.fa-icon {
 }
 .dropdown-menu:hover {
  font-family: sans-serif;
- font-size: 11pt;
+ /* font-size: 11pt; */
  box-shadow: none;
  padding: 0px;
  text-align: left;
@@ -791,7 +791,7 @@ i.fa.fa-icon {
 }
 .dropdown-menu > li > a {
  font-family: sans-serif;
- font-size: 12.0pt;
+ /* font-size: 12.0pt; */
  display: block;
  padding: 10px 20px 9px 10px;
  color: #899ab8;
@@ -825,7 +825,7 @@ i.fa.fa-icon {
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
  font-family: sans-serif;
- font-size: 12.0pt;
+ /* font-size: 12.0pt; */
  font-weight: normal;
  color: #526488;
  padding: none;
@@ -865,7 +865,7 @@ div.kse-dropdown > .dropdown-menu,
  box-shadow: none;
  text-shadow: none;
  /* border-radius: 3px; */
- font-size: initial;
+ /* font-size: initial; */
 }
 .btn:hover,
 .btn:active:hover,
@@ -941,7 +941,7 @@ div.kse-dropdown > .dropdown-menu,
 .item_buttons > .btn,
 .item_buttons > .btn-group,
 .item_buttons > .input-group {
- font-size: 11pt;
+ /* font-size: 11pt; */
  background: transparent;
  background-color: transparent;
  border: 0px solid #2e3642;
@@ -982,14 +982,14 @@ div.kse-dropdown > .dropdown-menu,
 .alternate_upload .btn-upload,
 .btn-group,
 .btn-group-vertical {
- font-size: inherit;
+ /* font-size: inherit; */
  font-weight: normal;
  height: inherit;
  line-height: inherit;
 }
 .btn-xs,
 .btn-group-xs > .btn {
- font-size: initial !important;
+ /* font-size: initial !important; */
  background-image: none;
  font-weight: normal;
  text-shadow: none;
@@ -1064,7 +1064,7 @@ div.dynamic-buttons > button,
 }
 .dropdown-header {
  font-family: sans-serif !important;
- font-size: 11pt !important;
+ /* font-size: 11pt !important; */
  color: #7aa05d !important;
  border-bottom: none !important;
  padding: 0px !important;
@@ -1074,7 +1074,7 @@ span#last-modified.btn.btn-xs.btn-default.sort-action,
 span#sort-name.btn.btn-xs.btn-default.sort-action,
 span#file-size.btn.btn-xs.btn-default.sort-action {
  font-family: sans-serif;
- font-size: 16px;
+ /* font-size: 16px; */
  background-color: transparent;
  background: transparent;
  border: none;
@@ -1089,7 +1089,7 @@ span#last-modified.btn.btn-xs.btn-default.sort-action {
 button.close {
  border: 0px none;
  font-family: sans-serif;
- font-size: 20pt;
+ /* font-size: 20pt; */
  font-weight: normal;
 }
 .dynamic-buttons {
@@ -1128,7 +1128,7 @@ fieldset[disabled] .btn-default.focus {
 }
 .input-group-addon {
  padding: 2px 5px;
- font-size: 11pt;
+ /* font-size: 11pt; */
  font-weight: normal;
  height: auto;
  color: #899ab8;
@@ -1151,7 +1151,7 @@ a.btn.btn-default.input-group-addon:hover {
 }
 .input-group-btn {
  position: relative;
- font-size: inherit;
+ /* font-size: inherit; */
  white-space: nowrap;
  background: #2e3642;
  background-color: #2e3642;
@@ -1169,14 +1169,14 @@ a.btn.btn-default.input-group-addon:hover {
  border: none;
  margin-left: 2px;
  margin-right: -1px;
- font-size: inherit;
+ /* font-size: inherit; */
 }
 .input-group-btn:first-child > .btn:hover,
 .input-group-btn:first-child > .btn-group:hover {
  background: #2a2e39;
  background-color: #2a2e39;
  border: none;
- font-size: inherit;
+ /* font-size: inherit; */
  transition: 200ms ease;
 }
 div.modal .btn-group > .btn:first-child {
@@ -1208,7 +1208,7 @@ div.modal-footer > button:hover {
 }
 .modal-content {
  font-family: sans-serif;
- font-size: 12.0pt;
+ /* font-size: 12.0pt; */
  position: relative;
  background: #2e3642;
  background-color: #2e3642;
@@ -1219,7 +1219,7 @@ div.modal-footer > button:hover {
 }
 .modal-header {
  font-family: sans-serif;
- font-size: 11pt;
+ /* font-size: 11pt; */
  color: #899ab8;
  background: #2e3642;
  background-color: #2e3642;
@@ -1229,7 +1229,7 @@ div.modal-footer > button:hover {
 }
 .modal-content h4 {
  font-family: sans-serif;
- font-size: 16pt;
+ /* font-size: 16pt; */
  color: #899ab8;
  padding: 5px;
 }
@@ -1251,7 +1251,7 @@ div.modal-footer > button:hover {
 }
 .modal-header .close {
  margin-top: -5px;
- font-size: 25pt;
+ /* font-size: 25pt; */
 }
 .modal-backdrop,
 .modal-backdrop.in {
@@ -1263,7 +1263,7 @@ div.panel-default,
 .panel,
 .panel-default {
  font-family: sans-serif;
- font-size: 11pt;
+ /* font-size: 11pt; */
  background-color: #384152;
  color: #899ab8;
  margin-bottom: 14px;
@@ -1272,7 +1272,7 @@ div.panel-default,
 }
 div.panel > .panel-heading,
 div.panel-default > .panel-heading {
- font-size: 14pt;
+ /* font-size: 14pt; */
  color: #899ab8;
  background: #2e3642;
  background-color: #2e3642;
@@ -1291,7 +1291,7 @@ div.container-fluid {
 div.form-control,
 .form-control {
  font-family: sans-serif;
- font-size: initial;
+ /* font-size: initial; */
  color: #899ab8;
  background-color: #262c36;
  border: 1px solid #262c36 !important;
@@ -1322,7 +1322,7 @@ textarea {
 }
 select.form-control.select-xs {
  height: 33px;
- font-size: 11pt;
+ /* font-size: 11pt; */
 }
 .toolbar select,
 .toolbar label {
@@ -1331,7 +1331,7 @@ select.form-control.select-xs {
  margin-right: 0px;
  margin-bottom: 0px;
  display: inline;
- font-size: 92%;
+ /* font-size: 92%; */
  margin-left: 10px;
  padding: 0px;
  background: #303542 !important;
@@ -1563,11 +1563,11 @@ div.prompt,
  padding-left: 0px;
  padding-right: 1px;
  text-align: right !important;
- min-width: 11.5ex !important;
- width: 11.5ex !important;
+ /* min-width: 11.5ex !important;
+ width: 11.5ex !important; */
 }
 div.prompt.input_prompt {
- font-size: 9pt !important;
+ /* font-size: 9pt !important; */
  background-color: #2c303c;
  border-top: 0px;
  border-top-right-radius: 0px;
@@ -1631,8 +1631,8 @@ div.cell.code_cell.rendered.unselected.jupyter-soft-selected .run_this_cell:hove
  color: #33517c !important;
 }
 div.output_wrapper {
- /* background-color: #373e4b; */
- background-color: #fff;
+ background-color: #373e4b;
+ /* background-color: #fff; */
  border: 0px;
  left: 0px;
  margin-bottom: 0em;
@@ -1643,7 +1643,7 @@ div.output_wrapper {
 div.output_subarea.output_text.output_stream.output_stdout,
 div.output_subarea.output_text {
  font-family: monospace, monospace;
- font-size: 12pt !important;
+ /* font-size: 12pt !important; */
  line-height: 150% !important;
  background-color: #373e4b;
  color: #b1bed6;
@@ -1652,7 +1652,7 @@ div.output_subarea.output_text {
 }
 div.output_area pre {
  font-family: monospace, monospace;
- font-size: 12pt !important;
+ /* font-size: 12pt !important; */
  line-height: 151% !important;
  color: #b1bed6;
  border-top-right-radius: 0px;
@@ -1663,7 +1663,7 @@ div.output_area {
 }
 div.output_html {
  font-family: monospace, monospace;
- font-size: 12pt;
+ /* font-size: 12pt; */
  color: #dbdfef;
  background-color: #373e4b;
  background: #373e4b;
@@ -1688,7 +1688,7 @@ div.btn.btn-default.output_collapsed:hover {
 }
 div.prompt.output_prompt {
  font-family: monospace, monospace;
- font-size: 9.5pt !important;
+ /* font-size: 9.5pt !important; */
  font-weight: bold !important;
  background-color: #373e4b;
  color: transparent;
@@ -1702,7 +1702,7 @@ div.prompt.output_prompt {
 }
 div.out_prompt_overlay.prompt {
  font-family: monospace, monospace;
- font-size: 9.5pt !important;
+ /* font-size: 9.5pt !important; */
  font-weight: bold !important;
  background-color: #373e4b;
  border-bottom-left-radius: 2px;
@@ -1747,7 +1747,7 @@ div.text_cell,
 div.text_cell_render pre,
 div.text_cell_render {
  font-family: sans-serif;
- font-size: 11pt;
+ /* font-size: 11pt; */
  line-height: 130% !important;
  color: #abb7ce;
  background: #2c303c;
@@ -1820,7 +1820,7 @@ div.cell.text_cell .prompt {
 }
 div.cell.text_cell.rendered .prompt {
  font-family: monospace, monospace;
- font-size: 9.5pt !important;
+ /* font-size: 9.5pt !important; */
  font-weight: normal;
  color: #526488 !important;
  text-align: right !important;
@@ -1832,7 +1832,7 @@ div.cell.text_cell.rendered .prompt {
 }
 div.cell.text_cell.unrendered .prompt {
  font-family: monospace, monospace;
- font-size: 9.5pt !important;
+ /* font-size: 9.5pt !important; */
  font-weight: normal;
  color: #526488 !important;
  text-align: right !important;
@@ -1859,7 +1859,7 @@ div.text_cell.rendered.selected .prompt {
 }
 div.rendered_html code {
  font-family: monospace, monospace;
- font-size: 11pt;
+ /* font-size: 11pt; */
  padding-top: 3px;
  padding-left: 2px;
  color: #b5c2d9;
@@ -1875,7 +1875,7 @@ samp {
 .well code,
 code {
  font-family: monospace, monospace;
- font-size: 11pt !important;
+ /* font-size: 11pt !important; */
  line-height: 200% !important;
  color: #abb7ce;
  background: #262c36;
@@ -1884,7 +1884,7 @@ code {
 }
 kbd {
  padding: 1px;
- font-size: 11pt;
+ /* font-size: 11pt; */
  font-weight: 800;
  color: #b5c2d9;
  background-color: transparent !important;
@@ -1895,7 +1895,7 @@ pre {
  display: block;
  padding: 8.5px;
  margin: 0 0 9px;
- font-size: 12.0pt;
+ /* font-size: 12.0pt; */
  line-height: 1.42857143;
  color: #b5c2d9;
  background-color: #262c36;
@@ -1915,7 +1915,7 @@ div.rendered_html {
 }
 div.rendered_html pre {
  font-family: monospace, monospace;
- font-size: 11pt !important;
+ /* font-size: 11pt !important; */
  line-height: 200% !important;
  color: #abb7ce !important;
  background: #262c36;
@@ -1931,7 +1931,7 @@ div.rendered_html pre {
 div.text_cell_render pre,
 div.text_cell_render code {
  font-family: monospace, monospace;
- font-size: 11pt !important;
+ /* font-size: 11pt !important; */
  line-height: 200% !important;
  color: #abb7ce;
  background: #1d1e23;
@@ -1972,7 +1972,7 @@ div.rendered_html h5 {
 .rendered_html h1,
 .text_cell_render h1 {
  color: #7aa05d !important;
- font-size: 200%;
+ /* font-size: 200%; */
  text-align: left;
  font-style: normal;
  font-weight: normal;
@@ -1980,28 +1980,28 @@ div.rendered_html h5 {
 .rendered_html h2,
 .text_cell_render h2 {
  color: #7aa05d !important;
- font-size: 170%;
+ /* font-size: 170%; */
  font-style: normal;
  font-weight: normal;
 }
 .rendered_html h3,
 .text_cell_render h3 {
  color: #7aa05d !important;
- font-size: 140%;
+ /* font-size: 140%; */
  font-style: normal;
  font-weight: normal;
 }
 .rendered_html h4,
 .text_cell_render h4 {
  color: #7aa05d !important;
- font-size: 110%;
+ /* font-size: 110%; */
  font-style: normal;
  font-weight: normal;
 }
 .rendered_html h5,
 .text_cell_render h5 {
  color: #7aa05d !important;
- font-size: 100%;
+ /* font-size: 100%; */
  font-style: normal;
  font-weight: normal;
 }
@@ -2042,7 +2042,7 @@ div#_vivaldi-spatnav-focus-indicator._vivaldi-spatnav-focus-indicator {
 }
 .rendered_html td {
  font-family: sans-serif !important;
- font-size: 12pt;
+ /* font-size: 12pt; */
 }
 .rendered_html table {
  font-family: sans-serif !important;
@@ -2056,7 +2056,7 @@ div#_vivaldi-spatnav-focus-indicator._vivaldi-spatnav-focus-indicator {
 }
 .rendered_html thead {
  font-family: sans-serif !important;
- font-size: 13.0pt !important;
+ /* font-size: 13.0pt !important; */
  background: #2e3642;
  color: #d4d8ec;
  border-bottom: 1px solid #2e3642;
@@ -2084,7 +2084,7 @@ div.widget-area {
 }
 div.widget-area a {
  font-family: sans-serif;
- font-size: 12.0pt;
+ /* font-size: 12.0pt; */
  font-weight: normal;
  font-style: normal;
  color: #899ab8;
@@ -2093,7 +2093,7 @@ div.widget-area a {
 div.widget-area a:hover,
 div.widget-area a:focus {
  font-family: sans-serif;
- font-size: 12.0pt;
+ /* font-size: 12.0pt; */
  font-weight: normal;
  font-style: normal;
  color: #bbc2e0;
@@ -2108,7 +2108,7 @@ div.widget_item.btn-group > button.btn.btn-default.widget-combo-btn:hover {
  background: #2c343f;
  background-color: #2c343f;
  border: 2px solid #2c343f !important;
- font-size: inherit;
+ /* font-size: inherit; */
  z-index: 0;
 }
 div.jupyter-widgets.widget-hprogress.widget-hbox {
@@ -2127,7 +2127,7 @@ div.widget-label {
  min-width: 100px !important;
  vertical-align: text-top !important;
  color: #b1bed6 !important;
- font-size: 14px !important;
+ /* font-size: 14px !important; */
 }
 .widget-hprogress .progress {
  flex-grow: 1;
@@ -2165,7 +2165,7 @@ div.widget-label {
 }
 .rendered_html :link {
  font-family: sans-serif;
- font-size: 100%;
+ /* font-size: 100%; */
  color: #7aa05d;
  text-decoration: underline;
 }
@@ -2177,18 +2177,18 @@ div.widget-label {
 .rendered_html :visited:hover,
 .rendered_html :link:hover {
  font-family: sans-serif;
- font-size: 100%;
+ /* font-size: 100%; */
  color: #64963e;
 }
 div.cell.text_cell a.anchor-link:link {
- font-size: inherit;
+ /* font-size: inherit; */
  text-decoration: none;
  padding: 0px 20px;
  visibility: none;
  color: rgba(0,0,0,.32);
 }
 div.cell.text_cell a.anchor-link:link:hover {
- font-size: inherit;
+ /* font-size: inherit; */
  color: #94c273;
 }
 .navbar-text {
@@ -2206,7 +2206,7 @@ div.cell.text_cell a.anchor-link:link:hover {
  cursor: auto;
 }
 #nbextensions-configurator-container > div.row.container-fluid.nbext-selector > h3 {
- font-size: 17px;
+ /* font-size: 17px; */
  margin-top: 5px;
  margin-bottom: 8px;
  height: 24px;
@@ -2220,7 +2220,7 @@ div#nbextensions-configurator-container.container,
 }
 div.nbext-selector > nav > .nav > li > a {
  font-family: sans-serif;
- font-size: 10.5pt;
+ /* font-size: 10.5pt; */
  padding: 2px 5px;
 }
 div.nbext-selector > nav > .nav > li > a:hover {
@@ -2246,7 +2246,7 @@ div.nbext-selector > nav > .nav > li.active:hover {
 }
 div.nbext-readme > .nbext-readme-contents > .rendered_html {
  font-family: sans-serif;
- font-size: 11.5pt;
+ /* font-size: 11.5pt; */
  line-height: 145%;
  padding: 1em 1em;
  color: #abb7ce;
@@ -2261,7 +2261,7 @@ div.nbext-readme > .nbext-readme-contents > .rendered_html {
 .nbext-enable-btns,
 .nbext-params {
  margin-bottom: 8px;
- font-size: 11.5pt;
+ /* font-size: 11.5pt; */
 }
 div.nbext-readme > .nbext-readme-contents {
  padding: 0;
@@ -2276,7 +2276,7 @@ div.nbext-readme > .nbext-readme-contents:not(:empty) {
 .nbext-showhide-incompat {
  padding-bottom: 0.5em;
  color: #687b96;
- font-size: 10.5pt;
+ /* font-size: 10.5pt; */
 }
 .nbext-filter-menu.dropdown-menu > li > a:hover,
 .nbext-filter-menu.dropdown-menu > li > a:focus,
@@ -2442,7 +2442,7 @@ div.collapsible_headings_toggle:hover {
 }
 div.collapsible_headings_toggle .fa-caret-down:before,
 div.collapsible_headings_toggle .fa-caret-right:before {
- font-size: xx-large;
+ /* font-size: xx-large; */
  transition: transform 1000ms;
  transform: none !important;
 }
@@ -2493,7 +2493,7 @@ div.collapsible_headings_toggle .fa-caret-right:before {
 #navigate_menu a,
 .toc {
  color: #899ab8 !important;
- font-size: 11pt !important;
+ /* font-size: 11pt !important; */
 }
 #toc li > span:hover {
  background-color: #313643 !important;
@@ -2502,15 +2502,15 @@ div.collapsible_headings_toggle .fa-caret-right:before {
 #navigate_menu a:hover,
 .toc {
  color: #d8dcee !important;
- font-size: 11pt !important;
+ /* font-size: 11pt !important; */
 }
 #toc-wrapper .toc-item-num {
  color: #7aa05d !important;
- font-size: 11pt !important;
+ /* font-size: 11pt !important; */
 }
 input.raw_input {
  font-family: monospace, monospace;
- font-size: 11pt !important;
+ /* font-size: 11pt !important; */
  color: #b5c2d9;
  background-color: #262c36;
  border-color: #242a33;
@@ -2547,7 +2547,7 @@ video {
  font-family: sans-serif;
  color: #b5c2d9;
  border: none;
- font-size: 28pt;
+ /* font-size: 28pt; */
  display: inline-block;
  line-height: inherit;
  padding: 3px 10px;
@@ -2563,7 +2563,7 @@ body > div.modal.cmd-palette.typeahead-field {
 }
 .typeahead-container button {
  font-family: sans-serif;
- font-size: 28pt;
+ /* font-size: 28pt; */
  background-color: #2e3642;
  border: none;
  display: inline-block;
@@ -2598,7 +2598,7 @@ body > div.modal.cmd-palette.typeahead-field {
 .typeahead-dropdown,
 .typeahead-list {
  font-family: sans-serif;
- font-size: 11pt;
+ /* font-size: 11pt; */
  color: #899ab8;
  background-color: #202937;
  border: none;
@@ -2691,7 +2691,7 @@ body > div.modal.cmd-palette.in > div {
  color: #7aa05d !important;
  left: 0px !important;
  top: 13px !important;
- font-size: 12px !important;
+ /* font-size: 12px !important; */
 }
 .shortcut_key,
 span.shortcut_key {
@@ -2707,7 +2707,7 @@ span.shortcut_key {
 }
 .jupyter-keybindings i {
  background: #262c36;
- font-size: small;
+ /* font-size: small; */
  padding: 5px;
  margin-left: 7px;
 }
@@ -2743,7 +2743,7 @@ div#short-key-bindings-intro.well,
 }
 .terminal-app .terminal {
  font-family: monospace, monospace;
- font-size: 11pt;
+ /* font-size: 11pt; */
  line-height: 200%;
  color: #b5c2d9;
  background: #2c303c;
@@ -2805,7 +2805,7 @@ div#short-key-bindings-intro.well,
  outline-offset: -1px;
 }
 .celltoolbar {
- font-size: 100%;
+ /* font-size: 100%; */
  padding-top: 3px;
  border-color: transparent;
  border-bottom: thin solid rgba(148,204,114,.4);
@@ -2821,13 +2821,13 @@ div#short-key-bindings-intro.well,
  border-radius: 1px;
  box-shadow: none;
  width: inherit;
- font-size: inherit;
+ /* font-size: inherit; */
  height: 22px;
  line-height: 22px;
 }
 #notebook-container > div.cell.code_cell.rendered.selected > div.input > div.inner_cell > div.ctb_hideshow.ctb_show > div > div > button,
 #notebook-container > div.input > div.inner_cell > div.ctb_hideshow.ctb_show > div > div > button {
- font-size: 10pt;
+ /* font-size: 10pt; */
  color: #899ab8;
  background-color: #1d1e23;
  background-image: none;
@@ -2835,7 +2835,7 @@ div#short-key-bindings-intro.well,
  border-radius: 1px;
  box-shadow: none;
  width: inherit;
- font-size: inherit;
+ /* font-size: inherit; */
  height: 22px;
  line-height: 22px;
 }
@@ -2859,7 +2859,7 @@ div#pager .ui-resizable-handle {
 div.CodeMirror,
 div.CodeMirror pre {
  font-family: monospace, monospace;
- font-size: 11pt;
+ /* font-size: 11pt; */
  line-height: 200%;
  color: #b5c2d9;
 }
@@ -2921,7 +2921,7 @@ div.js-error {
 }
 .ipython_tooltip {
  font-family: monospace, monospace;
- font-size: 11pt;
+ /* font-size: 11pt; */
  line-height: 200%;
  border: 2px solid #21262c;
  background: #323a44;
@@ -2935,7 +2935,7 @@ div.js-error {
 }
 .ipython_tooltip .tooltiptext pre {
  font-family: monospace, monospace;
- font-size: 11pt;
+ /* font-size: 11pt; */
  line-height: 200%;
  background: #323a44;
  background-color: #323a44;
@@ -2957,7 +2957,7 @@ div.tooltiptext.bigtooltip {
 }
 .cm-s-ipython.CodeMirror {
  font-family: monospace, monospace;
- font-size: 11pt;
+ /* font-size: 11pt; */
  background: #2c303c;
  color: #b5c2d9;
  border-radius: 2px;
@@ -3075,19 +3075,19 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
  background: rgba(192,57,67,.3) !important;
 }
 .cm-header-1 {
- font-size: 215%;
+ /* font-size: 215%; */
 }
 .cm-header-2 {
- font-size: 180%;
+ /* font-size: 180%; */
 }
 .cm-header-3 {
- font-size: 150%;
+ /* font-size: 150%; */
 }
 .cm-header-4 {
- font-size: 120%;
+ /* font-size: 120%; */
 }
 .cm-header-5 {
- font-size: 100%;
+ /* font-size: 100%; */
 }
 .cm-s-default .cm-hr {
  color: #61afef;
@@ -3149,7 +3149,7 @@ div.cell.text_cell .cm-s-default span.cm-variable-3 {
 .MathJax_Display,
 .MathJax {
  border: 0 !important;
- font-size: 100% !important;
+ /* font-size: 100% !important; */
  text-align: center !important;
  margin: 0em !important;
  line-height: 2.25 !important;
@@ -3180,7 +3180,7 @@ body :focus .MathJax {
  margin-left: 2px;
  overflow: auto;
  font-family: monospace, monospace;
- font-size: 11pt;
+ /* font-size: 11pt; */
  color: #b5c2d9;
  width: auto;
 }
@@ -3206,7 +3206,7 @@ div#maintoolbar {
             styles: {
                 scale: 100,
                 ".MathJax_Display": {
-                    "font-size": "100%",
+                    /* "font-size": "100%", */
                 }
             }
         }
